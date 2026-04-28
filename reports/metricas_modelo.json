@@ -1,0 +1,29 @@
+{
+    "modelo": "Gradient Boosting",
+    "accuracy": 0.8562005277044855,
+    "precision": 0.7980952380952381,
+    "recall": 0.9928909952606635,
+    "f1": 0.8848996832101372,
+    "roc_auc": 0.9212085308056871,
+    "features": [
+        "IDADE",
+        "ANO_INGRESSO",
+        "IAA",
+        "IEG",
+        "IPS",
+        "IPP",
+        "IDA",
+        "INGLES",
+        "IPV",
+        "DIF_AUTOAVALIACAO_DESEMPENHO",
+        "DIF_ENGAJAMENTO_DESEMPENHO",
+        "MEDIA_INDICADORES_SEM_IAN",
+        "QTD_INDICADORES_ABAIXO_5",
+        "QTD_INDICADORES_ABAIXO_7",
+        "ANO",
+        "FASE",
+        "TURMA",
+        "GENERO",
+        "INSTITUICAO_ENSINO"
+    ]
+}

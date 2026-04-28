@@ -1,0 +1,24 @@
+STORYTELLING GERENCIAL - PASSOS MÁGICOS
+
+1. Contexto
+A Associação Passos Mágicos atua na transformação social por meio da educação, acompanhando indicadores acadêmicos, psicossociais, psicopedagógicos e de engajamento.
+
+2. Problema de negócio
+Identificar alunos em risco de defasagem antes que a queda de desempenho se consolide, permitindo ações preventivas.
+
+3. Principais achados
+- O percentual geral de alunos classificados em risco de defasagem é de 55.68%.
+- O INDE médio geral da base é de 7.28.
+- O IDA médio geral é de 6.38, representando o desempenho acadêmico médio.
+- A correlação entre engajamento IEG e desempenho IDA é de 0.539.
+- O indicador mais associado ao ponto de virada IPV é INDE, com correlação de 0.633.
+- O modelo preditivo foi treinado com sucesso e pode estimar a probabilidade de risco de defasagem para cada aluno.
+
+4. Modelo preditivo
+Foi construído um modelo de classificação para estimar a probabilidade de risco de defasagem. Para evitar vazamento de informação, IAN e DEFASAGEM não foram usados como variáveis de entrada.
+
+5. Recomendações
+- Priorizar acompanhamento dos alunos com maior probabilidade de risco.
+- Cruzar engajamento, desempenho acadêmico e fatores psicossociais para ações mais direcionadas.
+- Usar o modelo como triagem inicial, mantendo a decisão final com a equipe pedagógica.
+- Atualizar o modelo a cada novo ciclo de dados.

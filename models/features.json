@@ -1,0 +1,45 @@
+{
+    "features": [
+        "IDADE",
+        "ANO_INGRESSO",
+        "IAA",
+        "IEG",
+        "IPS",
+        "IPP",
+        "IDA",
+        "INGLES",
+        "IPV",
+        "DIF_AUTOAVALIACAO_DESEMPENHO",
+        "DIF_ENGAJAMENTO_DESEMPENHO",
+        "MEDIA_INDICADORES_SEM_IAN",
+        "QTD_INDICADORES_ABAIXO_5",
+        "QTD_INDICADORES_ABAIXO_7",
+        "ANO",
+        "FASE",
+        "TURMA",
+        "GENERO",
+        "INSTITUICAO_ENSINO"
+    ],
+    "variaveis_numericas": [
+        "IAA",
+        "IEG",
+        "IPS",
+        "IDA",
+        "IPV",
+        "MEDIA_INDICADORES_SEM_IAN",
+        "QTD_INDICADORES_ABAIXO_5",
+        "QTD_INDICADORES_ABAIXO_7",
+        "DIF_AUTOAVALIACAO_DESEMPENHO",
+        "DIF_ENGAJAMENTO_DESEMPENHO",
+        "ANO"
+    ],
+    "variaveis_categoricas": [
+        "IPP",
+        "DIF_PSICOPEDAGOGICO_NIVEL",
+        "GENERO",
+        "INSTITUICAO_ENSINO",
+        "FASE"
+    ],
+    "target": "RISCO_DEFASAGEM",
+    "modelo": "Gradient Boosting"
+}
